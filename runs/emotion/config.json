@@ -1,0 +1,20 @@
+{
+  "task": "emotion",
+  "architecture": "emotion_cnn",
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "embedding_dim": 128,
+  "train_backbone": "layer4",
+  "image_size": 48,
+  "seed": 42,
+  "val_fraction": 0.15,
+  "initial_weights": "random",
+  "preprocessing": "gray48_normalize_0.5"
+}

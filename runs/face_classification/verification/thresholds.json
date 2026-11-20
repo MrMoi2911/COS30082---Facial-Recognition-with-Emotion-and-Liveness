@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "checkpoint_sha256": "de5902685c5a14aa58afd70ee6e2fbb54a92d717cbe7bffcc70da86b3b3a08f0",
+  "score_rule": "accept if score >= threshold",
+  "scope": "validation only; threshold selected on these same pairs",
+  "thresholds": {
+    "cosine": 0.48859700560569763,
+    "negative_euclidean": -1.0113388299942017
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "validation only; threshold selected on these same pairs",
+  "pairs": 8805,
+  "target_calibration_fpr": 0.01,
+  "checkpoint_sha256": "de5902685c5a14aa58afd70ee6e2fbb54a92d717cbe7bffcc70da86b3b3a08f0",
+  "pairs_sha256": "55ecf1495188024f414e3b0faac2b7f4cc374000a809e3b98579ecd8f4f25fdd",
+  "metrics": {
+    "cosine": {
+      "roc_auc": 0.9065107732646513,
+      "threshold": 0.48859700560569763,
+      "tpr": 0.25469293163383544,
+      "fpr": 0.009799554565701559,
+      "accuracy": 0.629755820556502
+    },
+    "negative_euclidean": {
+      "roc_auc": 0.9065108506866035,
+      "threshold": -1.0113388299942017,
+      "tpr": 0.25469293163383544,
+      "fpr": 0.009799554565701559,
+      "accuracy": 0.629755820556502
+    }
+  },
+  "note": "Pairwise thresholds require separate validation for 1:N gallery matching. No guaranteed webcam FPR."
+}

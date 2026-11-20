@@ -1,0 +1,17 @@
+{
+  "source": "/Users/dangvohoanglong/Desktop/Final_Project_30082/11-785-fall-20-homework-2-part-2/classification_data",
+  "split_policy": "provided train_data/val_data/test_data",
+  "counts": {
+    "train": 380638,
+    "val": 8000,
+    "test": 8000
+  },
+  "versions": {
+    "python": "3.12.3",
+    "torch": "2.15.0",
+    "torchvision": "0.29.2"
+  },
+  "selection_metric": "val_accuracy",
+  "device": "mps",
+  "manifest_sha256": "553a2cd61f7021caa1a71dac73811e4ef1fa3c7453bdbcafb819fa68696fde88"
+}

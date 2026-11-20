@@ -1,0 +1,17 @@
+{
+  "source": "/Users/dangvohoanglong/Desktop/Final_Project_30082/fer2013_data",
+  "split_policy": "stratified 15% validation from train only; test untouched; seed=42",
+  "counts": {
+    "train": 24402,
+    "val": 4307,
+    "test": 7178
+  },
+  "versions": {
+    "python": "3.12.3",
+    "torch": "2.15.0",
+    "torchvision": "0.29.2"
+  },
+  "selection_metric": "val_macro_f1",
+  "device": "mps",
+  "manifest_sha256": "e0b9743a5923004367e2facc2f09cef8eab89fb9d616c4066fc71addfc9c0b9f"
+}

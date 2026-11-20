@@ -1,0 +1,9 @@
+{
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "class_weights": false,
+  "patience": 5,
+  "target_epochs": 20,
+  "workers": 0
+}
