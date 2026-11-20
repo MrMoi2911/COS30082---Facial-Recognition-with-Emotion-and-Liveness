@@ -1,2 +1,6 @@
 # COS30082---Facial-Recognition-with-Emotion-and-Liveness
 This is a school assignment
+metric learning và liveness trong hai notebook riêng: 02_metric_learning.ipynb và 04_liveness.ipynb.
+- Metric learning: dùng dataset khuôn mặt hiện có, xây dựng model embedding và train bằng loss phù hợp, chẳng hạn Triplet Loss. Đánh giá trên cùng file verification_pairs_val.txt, tính ROC-AUC, vẽ ROC và so sánh cosine với Euclidean để đối chiếu với model classification.
+- Liveness: chọn dataset có nhãn live/spoof, ghi rõ nguồn và chia train/validation/test. Tránh để frame từ cùng video nằm ở nhiều tập. Train model, chọn ngưỡng bằng validation rồi đánh giá trên test bằng metrics và confusion matrix.
+Mỗi notebook cần có phần chuẩn bị dữ liệu, model, training, đánh giá và nhận xét. Lưu best checkpoint, history CSV, metrics JSON và các biểu đồ, lần lượt vào runs/face_metric/ và runs/liveness/. Bàn giao cả code kiến trúc, cấu hình tiền xử lý ảnh, thứ tự nhãn và ý nghĩa điểm số để có thể nạp model vào webcam.
