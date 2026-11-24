@@ -1,0 +1,20 @@
+{
+    "model":"ResNet18",
+    "pretrained":"ImageNet",
+    "image_size":224,
+    "num_frames_per_video":5,
+    "class_mapping":{
+        "0":"Fake",
+        "1":"Real"
+    },
+    "decision_threshold":0.5,
+    "best_validation_loss":0.0566121412,
+    "epochs_trained":15,
+    "video_level_metrics":{
+        "Accuracy":0.9871794872,
+        "Precision":1.0,
+        "Recall":0.975,
+        "F1-score":0.9873417722,
+        "ROC-AUC":0.9996345029
+    }
+}
