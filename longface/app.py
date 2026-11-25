@@ -108,7 +108,7 @@ class AttendanceApp:
         crop = rgb[max(0, y - margin_y):min(rgb.shape[0], y + height + margin_y),
                    max(0, x - margin_x):min(rgb.shape[1], x + width + margin_x)]
         quality = check_quality(crop, **self.quality_config)
-        live = checked_prediction(self.liveness, crop)
+        live = checked_prediction(self.liveness, rgb)
         with torch.inference_mode():
             vector = self.face_model.encode(self.face_transform(Image.fromarray(crop)).unsqueeze(0).to(self.device))[0].cpu().numpy()
             emotion = "not loaded"
