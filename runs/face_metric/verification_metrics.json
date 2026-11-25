@@ -1,0 +1,14 @@
+{
+    "task": "face_verification",
+    "model": "metric_learning",
+    "split": "validation",
+    "pairs": 8805,
+    "metrics": {
+        "cosine_similarity": {
+            "roc_auc": 0.902953286174762
+        },
+        "euclidean_distance": {
+            "roc_auc": 0.9029532603674446
+        }
+    }
+}
