@@ -1,9 +1,0 @@
-{
-  "task": "emotion",
-  "split": "test",
-  "samples": 7178,
-  "accuracy": 0.5208971858456395,
-  "balanced_accuracy": 0.5256263395046573,
-  "macro_f1": 0.4591597565405343,
-  "checkpoint_sha256": "0ea8e8ebf93990c7203179ed48c3de2337e12de848364be82c70111bce0a209e"
-}
